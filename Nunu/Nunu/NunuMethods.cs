@@ -33,7 +33,7 @@ namespace Nunu
             if (spell == AttackSpell.Q)
                 range = Program.Q.Range;
             else if (spell == AttackSpell.E)
-                range = Program.W.Range;
+                range = Program.E.Range;
 
             return ObjectManager.Get<Obj_AI_Base>().OrderBy(a => a.Health).Where(a => (a.IsEnemy || a.IsMonster)
                 && a.Type == type
