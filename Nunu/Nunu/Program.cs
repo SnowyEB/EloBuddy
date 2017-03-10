@@ -98,7 +98,7 @@ namespace Nunu
                 Drawing.DrawCircle(_Player.Position, Q.Range, System.Drawing.Color.BlueViolet);
             if (DrawingsMenu["W"].Cast<CheckBox>().CurrentValue && W.IsLearned)
                 Drawing.DrawCircle(_Player.Position, W.Range, System.Drawing.Color.BlueViolet);
-            if (DrawingsMenu["E"].Cast<CheckBox>().CurrentValue && W.IsLearned)
+            if (DrawingsMenu["E"].Cast<CheckBox>().CurrentValue && E.IsLearned)
                 Drawing.DrawCircle(_Player.Position, E.Range, System.Drawing.Color.BlueViolet);
             if (DrawingsMenu["R"].Cast<CheckBox>().CurrentValue && R.IsLearned)
                 Drawing.DrawCircle(_Player.Position, R.Range, System.Drawing.Color.BlueViolet);
